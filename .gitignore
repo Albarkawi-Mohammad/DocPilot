@@ -1,0 +1,44 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated builds
+build/
+dist/
+*.spec
+!DocPilot.spec
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.codex/
+.agents/
+.aws/
+
+# Personal documents, local data, and debug artifacts
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.db
+*.sqlite*
+uploads/
+private/
+local-data/
+screenshots/
+*.log
+
+# Editors and operating system
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
